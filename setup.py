@@ -28,8 +28,8 @@ def get_install_requires():
 
 
 setuptools.setup(
-    version=get_version("yarr/__init__.py"),
-    name='yarr',
+    version=get_version("yarr2/__init__.py"),
+    name='yarr2',
     author='Stephen James',
     author_email='slj12@ic.ac.uk',
     packages=setuptools.find_packages(),
