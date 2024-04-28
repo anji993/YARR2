@@ -13,13 +13,13 @@ from typing import Union
 import numpy as np
 import psutil
 import torch
-from yarr.agents.agent import Agent
-from yarr.replay_buffer.wrappers.pytorch_replay_buffer import \
+from yarr2.agents.agent import Agent
+from yarr2.replay_buffer.wrappers.pytorch_replay_buffer import \
     PyTorchReplayBuffer
-from yarr.runners.env_runner import EnvRunner
-from yarr.runners.train_runner import TrainRunner
-from yarr.utils.log_writer import LogWriter
-from yarr.utils.stat_accumulator import StatAccumulator
+from yarr2.runners.env_runner import EnvRunner
+from yarr2.runners.train_runner import TrainRunner
+from yarr2.utils.log_writer import LogWriter
+from yarr2.utils.stat_accumulator import StatAccumulator
 
 NUM_WEIGHTS_TO_KEEP = 10
 

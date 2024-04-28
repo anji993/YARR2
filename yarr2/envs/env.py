@@ -3,8 +3,8 @@ from typing import Any, List
 
 import numpy as np
 
-from yarr.utils.observation_type import ObservationElement
-from yarr.utils.transition import Transition
+from yarr2.utils.observation_type import ObservationElement
+from yarr2.utils.transition import Transition
 
 
 class Env(ABC):

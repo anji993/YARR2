@@ -8,9 +8,9 @@ from typing import Any
 
 import numpy as np
 import torch
-from yarr.agents.agent import Agent
-from yarr.envs.env import Env
-from yarr.utils.rollout_generator import RolloutGenerator
+from yarr2.agents.agent import Agent
+from yarr2.envs.env import Env
+from yarr2.utils.rollout_generator import RolloutGenerator
 
 try:
     if get_start_method() != 'spawn':

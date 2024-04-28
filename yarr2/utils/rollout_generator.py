@@ -2,9 +2,9 @@ from multiprocessing import Value
 
 import numpy as np
 import torch
-from yarr.agents.agent import Agent
-from yarr.envs.env import Env
-from yarr.utils.transition import ReplayTransition
+from yarr2.agents.agent import Agent
+from yarr2.envs.env import Env
+from yarr2.utils.transition import ReplayTransition
 
 
 class RolloutGenerator(object):

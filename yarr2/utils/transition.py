@@ -1,7 +1,7 @@
 from typing import List
 
 import numpy as np
-from yarr.agents.agent import Summary
+from yarr2.agents.agent import Summary
 
 
 class Transition(object):

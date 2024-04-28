@@ -2,8 +2,8 @@ from multiprocessing import Lock
 from typing import List
 
 import numpy as np
-from yarr.agents.agent import Summary, ScalarSummary
-from yarr.utils.transition import ReplayTransition
+from yarr2.agents.agent import Summary, ScalarSummary
+from yarr2.utils.transition import ReplayTransition
 
 
 class StatAccumulator(object):

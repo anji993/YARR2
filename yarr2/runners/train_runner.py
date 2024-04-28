@@ -1,10 +1,10 @@
 from abc import abstractmethod, ABC
 from typing import Union, List
 
-from yarr.agents.agent import Agent
-from yarr.replay_buffer.wrappers import WrappedReplayBuffer
-from yarr.runners.env_runner import EnvRunner
-from yarr.utils.stat_accumulator import StatAccumulator
+from yarr2.agents.agent import Agent
+from yarr2.replay_buffer.wrappers import WrappedReplayBuffer
+from yarr2.runners.env_runner import EnvRunner
+from yarr2.utils.stat_accumulator import StatAccumulator
 
 
 class TrainRunner(ABC):

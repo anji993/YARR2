@@ -10,14 +10,14 @@ from typing import Union
 
 import numpy as np
 import torch
-from yarr.agents.agent import Agent
-from yarr.agents.agent import ScalarSummary
-from yarr.agents.agent import Summary
-from yarr.envs.env import Env
-from yarr.replay_buffer.replay_buffer import ReplayBuffer
-from yarr.runners._env_runner import _EnvRunner
-from yarr.utils.rollout_generator import RolloutGenerator
-from yarr.utils.stat_accumulator import StatAccumulator
+from yarr2.agents.agent import Agent
+from yarr2.agents.agent import ScalarSummary
+from yarr2.agents.agent import Summary
+from yarr2.envs.env import Env
+from yarr2.replay_buffer.replay_buffer import ReplayBuffer
+from yarr2.runners._env_runner import _EnvRunner
+from yarr2.utils.rollout_generator import RolloutGenerator
+from yarr2.utils.stat_accumulator import StatAccumulator
 
 
 class EnvRunner(object):

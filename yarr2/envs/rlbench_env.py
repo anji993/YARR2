@@ -11,9 +11,9 @@ from rlbench.action_modes.action_mode import ActionMode
 from rlbench.backend.observation import Observation
 from rlbench.backend.task import Task
 
-from yarr.envs.env import Env, MultiTaskEnv
-from yarr.utils.observation_type import ObservationElement
-from yarr.utils.transition import Transition
+from yarr2.envs.env import Env, MultiTaskEnv
+from yarr2.utils.observation_type import ObservationElement
+from yarr2.utils.transition import Transition
 
 
 ROBOT_STATE_KEYS = [

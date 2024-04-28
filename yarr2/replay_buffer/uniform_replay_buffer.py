@@ -21,8 +21,8 @@ import logging
 
 from natsort import natsort
 
-from yarr.replay_buffer.replay_buffer import ReplayBuffer, ReplayElement
-from yarr.utils.observation_type import ObservationElement
+from yarr2.replay_buffer.replay_buffer import ReplayBuffer, ReplayElement
+from yarr2.utils.observation_type import ObservationElement
 
 # Defines a type describing part of the tuple returned by the replay
 # memory. Each element of the tuple is a tensor of shape [batch, ...] where

@@ -3,8 +3,8 @@ from threading import Lock, Thread
 
 from torch.utils.data import IterableDataset, DataLoader
 
-from yarr.replay_buffer.replay_buffer import ReplayBuffer
-from yarr.replay_buffer.wrappers import WrappedReplayBuffer
+from yarr2.replay_buffer.replay_buffer import ReplayBuffer
+from yarr2.replay_buffer.wrappers import WrappedReplayBuffer
 
 
 class PyTorchIterableReplayDataset(IterableDataset):
